@@ -1,0 +1,88 @@
+:root{
+  font-size: 10px;
+}
+
+body{
+  background-color: #2D197C;
+  height: 100vh;
+  position: relative;
+}
+
+.todo__{
+  background-color: white;
+  width:50vw;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+.todo__ h2{
+  margin: 0 0 15px;
+  font-size: 2.4rem;
+}
+.todo__ .addbox{
+  margin: 0 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.todo__ .addbox input{
+  width: 80%;
+  height: 34px;
+  border: solid 2px #e5e5e5;
+  border-radius: 8px;
+}
+.todo__ table{
+  width:50vw;
+  margin: 0 auto;
+}
+.todo__ th{
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 50px;
+}
+.todo__ td{
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 50px;
+}
+.todo__ td input{
+  width: 90%;
+  height: 28px;
+  border: solid 2px #e5e5e5;
+  border-radius: 8px;
+}
+
+.todo__ button{
+  width: 60px;
+  height: 38px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 8px;
+}
+.todo__ .add{
+  color: #DC70FA;
+  border: solid 2px#DC70FA;
+}
+.todo__ .up{
+  color: #FA9770;
+  border: solid 2px#FA9770;
+}
+.todo__ .del{
+  color: #71F9DB;
+  border: solid 2px#71F9DB;
+}
+
+.todo__ .add:hover{
+  background-color: #DC70FA;
+  color: white;
+}
+.todo__ .up:hover{
+  background-color: #FA9770;
+  color: white;
+}
+.todo__ .del:hover{
+  background-color: #71F9DB;
+  color: white;
+}
